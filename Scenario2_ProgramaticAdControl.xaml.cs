@@ -34,11 +34,9 @@ namespace SDKTemplate
             var adControl = new AdControl();
 
             // Set the application id and ad unit id
-            // The application id and ad unit id can be obtained from Dev Center.
-            // See "Monetize with Ads" at https://msdn.microsoft.com/en-us/library/windows/apps/mt170658.aspx
-            adControl.ApplicationId = "d8728502-a5ad-4c5d-95db-986baf198406";
+            // The application id is the Product Id and the ad unit id can be obtained from Dev Center.
+            adControl.ApplicationId = "9nblggh5wl6s";
             adControl.AdUnitId = "ctrl-54320";
-
 
             // Set the dimensions
             adControl.Width = 300;
