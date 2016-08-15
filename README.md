@@ -9,7 +9,7 @@ Before running this sample locally, please ensure the following:
 - Ensure that it is atleast 1605.12003 and above.
 - If not, contact the Dev Center team for support.
 
-# Using the samples
+## Using the samples
 
 ### System Requirements: 
 - Windows 10
@@ -24,7 +24,7 @@ Before running this sample locally, please ensure the following:
 
 >In Fiddler, go to Filters (in right hand side tab) and in the hosts tab add the following: adbroker.mp.dse.microsoft.com;. This will ensure that only requests to adbroker will be logged and you can now see the request-response sent to adbroker to get the ads.
 
-# Understanding the sample: 
+## Understanding the sample: 
 
 The sample contains 2 ways to use the Microsoft Advertising Control
 - Through a XAML markup 
