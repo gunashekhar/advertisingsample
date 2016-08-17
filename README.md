@@ -9,6 +9,21 @@ Before running this sample locally, please ensure the following:
 - Ensure that it is atleast 1605.12003 and above.
 - If not, contact the Dev Center team for support.
 
+## I am already using the Advertising Control (or the AdControl). Give me the 2 minute overview? 
+
+- Find out the BigId (example: **9wzdncrdn95f**) for your application.
+- Get the AdUnitId (example: **ctrl-9wzdncrdn95f-1**) from the Dev Center Team.
+
+- In your app code, replace the values of the application id and the ad control id, with the following ids, as shown below – this is just an illustration and you can set the other attributes based on your need
+
+              <ads:AdControl 
+               ApplicationId="9wzdncrdn95f" AdUnitId="ctrl-9wzdncrdn95f-1" 
+               Width="300" Height="250" 
+               AdRefreshed="OnAdRefreshed" 
+               ErrorOccurred="OnErrorOccurred"/> 
+
+- Once you make this code change, please re-publish your app 
+
 ## Using the samples
 
 ### System Requirements: 
